@@ -8,7 +8,7 @@ public class Category {
 
     private String name;
     private String description;
-    private String color;
+    private Integer color[];
 
     public String getName() {
         return name;
@@ -26,11 +26,11 @@ public class Category {
         this.description = description;
     }
 
-    public String getColor() {
+    public Integer[] getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Integer[] color) {
         this.color = color;
     }
 }
